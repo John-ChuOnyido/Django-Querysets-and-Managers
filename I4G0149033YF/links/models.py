@@ -19,5 +19,5 @@ class Link(models.Model):
     
     created_date = models.DateTimeField(auto_now_add=True)
     active = models.BooleanField(default=True)
-objects = models.Manager()
-public = ActiveLinkManager()
+    objects = models.Manager()
+    public = ActiveLinkManager()
